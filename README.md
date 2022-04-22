@@ -18,8 +18,8 @@ Commands followed:
    <br>
    output:
    <br>
-   <img src="img/screenshot1.png" />
+   <img src="img/screenshot1.png" width="220" height="240" />
    <br>
-   <img src="img/screenshot2.png" />
+   <img src="img/screenshot2.png" width="220" height="240" />
    <br>
-   <img src="img/screenshot3.png" />
+   <img src="img/screenshot3.png" width="220" height="240" />
