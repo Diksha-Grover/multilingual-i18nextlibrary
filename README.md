@@ -19,8 +19,8 @@ Commands followed:
    output:
    <br>
    <br>
-   <img src="img/Screenshot1.png" width="220" height="240" />
+   <img src="img/Screenshot1.png" />
    <br>
-   <img src="img/Screenshot2.png" width="220" height="240" />
+   <img src="img/Screenshot2.png" />
    <br>
-   <img src="img/Screenshot3.png" width="220" height="240" />
+   <img src="img/Screenshot3.png" />
