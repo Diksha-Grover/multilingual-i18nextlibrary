@@ -15,14 +15,12 @@ In this mini-project I have used "escapeValue: false;" to avoid XSS.
 Commands followed:
 
 1. npm i i18next i18next-browser-languagedetector i18next-http-backend react-i18next
-   <br>
+   </br>
    output:
-   <p>
-   <img src="img/screenshot1.png" width="220" height="240" />
-   </p>
-   <p>
-   <img src="img/screenshot2.png" width="220" height="240" />
-   </p>
-   <p>
-   <img src="img/screenshot3.png" width="220" height="240" />
-   </p>
+   <br>
+   <br>
+   <img src="img/Screenshot1.png" width="220" height="240" />
+   <br>
+   <img src="img/Screenshot2.png" width="220" height="240" />
+   <br>
+   <img src="img/Screenshot3.png" width="220" height="240" />
