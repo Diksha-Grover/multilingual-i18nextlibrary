@@ -17,9 +17,12 @@ Commands followed:
 1. npm i i18next i18next-browser-languagedetector i18next-http-backend react-i18next
    <br>
    output:
-   <br>
+   <p>
    <img src="img/screenshot1.png" width="220" height="240" />
-   <br>
+   </p>
+   <p>
    <img src="img/screenshot2.png" width="220" height="240" />
-   <br>
+   </p>
+   <p>
    <img src="img/screenshot3.png" width="220" height="240" />
+   </p>
