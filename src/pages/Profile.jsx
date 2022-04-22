@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 
 const Profile = () => {
 	const { t } = useTranslation(["common", "profile"]);
+// It gets the t function and i18n instance inside your functional component. 
 
 	return (
 		<div className="container mt-5 col-9 col-md-6">
@@ -12,7 +13,7 @@ const Profile = () => {
 				<input
 					type="text"
 					className="form-control"
-					placeholder="John Doe"
+					placeholder="Shinchan"
 				/>
 			</div>
 			<div className="form-group">
@@ -20,7 +21,7 @@ const Profile = () => {
 				<input
 					type="number"
 					className="form-control"
-					placeholder="25"
+					placeholder="5"
 				/>
 			</div>
 			<div className="form-group">
@@ -28,7 +29,7 @@ const Profile = () => {
 				<input
 					type="text"
 					className="form-control"
-					placeholder="john@john.com"
+					placeholder="shinchan@gmail.com"
 				/>
 			</div>
 			<br />

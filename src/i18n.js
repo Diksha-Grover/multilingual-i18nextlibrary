@@ -4,22 +4,21 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
 i18n.use(Backend)
+// Backend will fetch the data
 	.use(LanguageDetector)
 	.use(initReactI18next)
 	.init({
 		backend: {
-			// translation file path
-			loadPath: "/assets/i18n/{{ns}}/{{lng}}.json",
+			loadPath: "/i18n/{{ns}}/{{lng}}.json",
 		},
 		fallbackLng: "en",
-		// disabled in production
+		// if any of the langauges are not chosen or if there is some issue then english language will be chosen
 		debug: false,
-		// can have multiple namespaces, in case you want to divide a huge
-		// translation into smaller pieces and load them on demand
+		// debug shows what is happening in the console
 		ns: ["common", "home", "profile"],
 
 		interpolation: {
-			espaceValue: false,
+			escapeValue: false,
 			formatSeparator: ",",
 		},
 		react: {

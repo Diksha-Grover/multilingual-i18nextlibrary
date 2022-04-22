@@ -8,7 +8,8 @@ import Profile from "./pages/Profile";
 
 const App = () => {
 	return (
-		<Suspense fallback={null}>
+		<Suspense fallback="Loading...">
+		{/* Suspense for Data Fetching is a new feature that lets you also use <Suspense> to declaratively “wait” for anything else, including data.  */}
 			<Router>
 				<Header />
 				<Routes>
