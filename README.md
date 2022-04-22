@@ -13,3 +13,10 @@ Cross-site scripting works by manipulating a vulnerable web site so that it retu
 Commands follwed:
 
 1. npm i i18next i18next-browser-languagedetector i18next-http-backend react-i18next
+   <br>
+   output:
+   <img src="public/img/screenshot1.png">
+   <br>
+   <img src="public/img/screenshot2.png">
+   <br>
+   <img src="public/img/screenshot3.png">
